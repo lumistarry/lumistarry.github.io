@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="闲谈 动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。\n再次检测一下我的Unity开发水平吧。\n">
+<title>2D游戏《金克丝大冒险》作品介绍</title>
+
+<link rel='canonical' href='https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="2D游戏《金克丝大冒险》作品介绍">
+<meta property='og:description' content="闲谈 动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。\n再次检测一下我的Unity开发水平吧。\n">
+<meta property='og:url' content='https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/'>
+<meta property='og:site_name' content='北辰开阳'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-08T21:26:29&#43;08:00'/><meta property='article:modified_time' content='2024-12-08T21:26:29&#43;08:00'/><meta property='og:image' content='https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png' />
+<meta name="twitter:title" content="2D游戏《金克丝大冒险》作品介绍">
+<meta name="twitter:description" content="闲谈 动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。\n再次检测一下我的Unity开发水平吧。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu10430540906618922162.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">⭐</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">北辰开阳</a></h1>
+            <h2 class="site-description">Tech otakus change the world. 技术宅改变世界。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/87678460/'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/LegendEndless'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://steamcommunity.com/profiles/76561198849955202/'
+                        target="_blank"
+                        title="Steam"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" /><circle cx="16.5" cy="9.5" r="1" fill="currentColor" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=1984414140'
+                        target="_blank"
+                        title="网易云音乐"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-netease-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -1 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#闲谈">闲谈</a></li>
+    <li><a href="#承担工作">承担工作</a></li>
+    <li><a href="#制作时间">制作时间</a></li>
+    <li><a href="#故事简介">故事简介</a></li>
+    <li><a href="#制作理念">制作理念</a></li>
+    <li><a href="#复盘">复盘</a></li>
+    <li><a href="#预览">预览</a></li>
+    <li><a href="#奖项">奖项</a></li>
+    <li><a href="#图集">图集</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+                <img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu14447919313645405669.png"
+                        srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu14447919313645405669.png 800w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu8209014671170714211.png 1600w"
+                        width="800" 
+                        height="361" 
+                        loading="lazy"
+                        alt="Featured image of post 2D游戏《金克丝大冒险》作品介绍" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" >
+                作品集
+            </a>
+        
+            <a href="/categories/2d/" >
+                2D
+            </a>
+        
+            <a href="/categories/unity/" >
+                Unity
+            </a>
+        
+            <a href="/categories/%E6%B8%B8%E6%88%8F/" >
+                游戏
+            </a>
+        
+            <a href="/categories/%E7%A8%8B%E5%BA%8F/" >
+                程序
+            </a>
+        
+            <a href="/categories/ta/" >
+                TA
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">2D游戏《金克丝大冒险》作品介绍</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 08, 2024</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="闲谈">闲谈
+</h2><p>动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。<br>
+再次检测一下我的Unity开发水平吧。<br></p>
+<h2 id="承担工作">承担工作
+</h2><p>全栈开发<br>
+技术美术<br>
+UI美术<br>
+关卡策划<br></p>
+<h2 id="制作时间">制作时间
+</h2><p>2024年11月4日开始头脑风暴并构思<br>
+2024年11月18日正式开始制作<br>
+2024年11月26日开始第一次build<br>
+2024年12月4日开发和调试完成，输出最终版本<br></p>
+<h2 id="故事简介">故事简介
+</h2><p>&ldquo;警告：地面塌陷剩余3秒&rdquo;<br>
+金克丝咬碎最后一口泡泡糖，荧光粉的唾沫星子溅在生锈的通风管道上。她的机械义肢正卡在两块摇晃的霓虹广告牌之间，下方三百米处，祖安地沟区的毒云像饥饿的紫色巨口般翻腾。<br>
+这是她改造后的第19版训练程序——把整个福根酒馆旧址改造成垂直死亡乐园。每块漂浮的炼金科技板都在全息投影里标注着危险等级：冒着电火花的齿轮平台是三级陷阱，杰斯遗留的海克斯能量板会随机过载，而那些涂着粉漆的砖块&hellip;哈，那可是她特意为&quot;贵宾&quot;准备的惊喜礼包。<br>
+&ldquo;执法官的小甜心们可真贴心~&ldquo;金克丝咯咯笑着蹬碎一块印有凯特琳肖像的混凝土砖，腰间的z型驱动装置迸发蓝光，把她弹向更高处的悬浮货柜。<br>
+&ldquo;这才够劲！&ldquo;她甩出砰砰枪打碎头顶的玻璃穹顶，月光如瀑布般倾泻而下。那些漂浮的砖块突然活了过来：希尔科的齿轮徽章变成旋转刀盘，维克托的机械触手板伸出抓钩，而印着爆爆童年涂鸦的粉色砖块&hellip;哈，踩上去会炸出彩虹烟雾！<br>
+在第七次被执法官无人机咬住裤脚时，金克丝终于启动了最终协议。鱼骨头火箭炮轰开天花板，露出隐藏在云层中的巨型海克斯水晶——这是她从杰斯实验室&quot;借&quot;来的圣诞装饰品，此刻正把整个夜空染成癫狂的紫红色。<br></p>
+<h2 id="制作理念">制作理念
+</h2><p>本游戏基于h5平台。<br>
+首先，本作的定位是一款内嵌于《英雄联盟手游》的H5小游戏。轻量化，触屏可操作性和简单易操作是作品的核心。<br>
+我们绝不能眼高手低好高骛远做出与自身能力不匹配的计划，或者高耗能无法移植的作品从而导致烂尾。<br>
+“小游戏”，顾名思义，要“小”。而针对它的面向对象是手游玩家，既要充当玩家在竞技之余放松的杀时间产品，又要保证其足够好玩。对此将展开游戏设计。<br>
+详细的制作理念，请阅读开发文档<a class="link" href="https://docs.qq.com/doc/p/1076af9df10f67b84ffbb437e493f649c0c8c05b"  target="_blank" rel="noopener"
+    >《金克丝大冒险》游戏设计文档</a>，<a class="link" href="https://docs.qq.com/doc/p/bc9dc36a881a923edc7cd2e440ec6e6e8b23bfb4"  target="_blank" rel="noopener"
+    >《金克丝大冒险》程序开发文档</a></p>
+<h2 id="复盘">复盘
+</h2><p>(部分内容在比赛结束后补写)<br></p>
+<blockquote>
+<p><em>“千万利器，莫过于你的信念。”<br>
+&mdash;&mdash;残月之啸 厄斐琉斯</em></p>
+</blockquote>
+<p>怀揣着对游戏的无限热忱，我选择了计算机专业，选择了游戏行业。<br>
+有人问，你这么闷着头做研发，没有成就，没有营收，图什么？<br>
+我给出的回答是：<br>
+&ldquo;一个游戏开发者，他的作品受到了很多人的喜欢。<br>
+这种时候，你就会感受到你从来不是孤单一人。<br>
+还有一帮素未谋面但又亲切万分的玩家惦记你的作品。<br>
+就是这种时刻，才是一个开发者，最棒的时刻。&quot;<br>
+<br>
+&hellip;<br>
+<br>
+比赛结束了，没有获得奖项。<br>
+优胜者的作品被制作进英雄联盟手游了，进去试玩了一下。<br>
+可以看出，我们的作品作为一款”小“作品，确实美术上还是没有到位（只有一位美术同学555）。<br>
+并且，由于采用了无尽的关卡设计，并没有让评委老师感受到“关卡玩法”这一内容。优胜者的作品虽然也简略粗糙，玩法也很单调，但是有基础的美术设计，统一的美术风格，还有六道不同的关卡。<br>
+将关卡设计交给随机算法，没有采用传统的关卡设计，确实是应该改进的地方。<br>
+而且，游戏体量过于单薄。《英雄联盟手游》项目组的目的显然是出品一款小活动，让用户花费一些时间，得到一些奖励物品的同时获得不重复的游戏体验。本游戏的玩法确实显得有些单调。<br>
+并且花费了相当多的时间来调试，debug，没有考虑到游戏在底层设计上出现了问题。<br>
+不断学习，不断进步吧。</p>
+<h2 id="预览">预览
+</h2><p><a class="link" href="https://c0bl83jcgvu.feishu.cn/docx/WGOWd9IV8oN0GPxZ0lZcpdP5nad?from=from_copylink"  target="_blank" rel="noopener"
+    >《金克丝大冒险》视频预览</a></p>
+<h2 id="奖项">奖项
+</h2><p>很遗憾。</p>
+<h2 id="图集">图集
+</h2><p><img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art.png"
+	width="1043"
+	height="1077"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu10998604177390005100.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu4349976379865968759.png 1024w"
+	loading="lazy"
+	
+		alt="美术资源展示。和美术同学通过微信传文件，这是其中的一部分。"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="96"
+		data-flex-basis="232px"
+	
+>
+<img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1.png"
+	width="1921"
+	height="1082"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu13075817337563124966.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu332290086458783440.png 1024w"
+	loading="lazy"
+	
+		alt="在Photoshop中进行游戏UI的比例设计"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+> <br>
+<img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2.png"
+	width="1975"
+	height="973"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu15444916176324844830.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu2448388993399716270.png 1024w"
+	loading="lazy"
+	
+		alt="测试关卡中瓦片的生成算法。当时出现了bug，后来用了两天才定位到并解决。"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="202"
+		data-flex-basis="487px"
+	
+>
+<img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3.png"
+	width="602"
+	height="951"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu2229653323324694856.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu5392408370286161958.png 1024w"
+	loading="lazy"
+	
+		alt="瓦片的随机生成算法。可以在Inspector中便捷的调试"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="63"
+		data-flex-basis="151px"
+	
+> <br>
+<img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4.png"
+	width="1005"
+	height="1143"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu11908552189616641870.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu16171611655322765000.png 1024w"
+	loading="lazy"
+	
+		alt="人物动画设计。后来工作量太大了决定大幅削减动画量"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="87"
+		data-flex-basis="211px"
+	
+>
+<img src="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5.png"
+	width="1084"
+	height="599"
+	srcset="/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu16694738305577418393.png 480w, /p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu17679966495286624416.png 1024w"
+	loading="lazy"
+	
+		alt="最终的UI设计"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="180"
+		data-flex-basis="434px"
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.89ee2d3c038a8d364368884a9604ed85_hu10956119755054342919.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post SLG游戏《无尽天启》作品介绍"
+                        
+                        data-hash="md5-ie4tPAOKjTZDaIhKlgTthQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">SLG游戏《无尽天启》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page3.ee826347c6c5ace7ccaee2cd47c495da_hu2061973022456199910.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2D游戏《飞翔的阿乔》作品介绍"
+                        
+                        data-hash="md5-7oJjR8bFrOfMruLNR8SV2g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2D游戏《飞翔的阿乔》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.d6ea0e3bd2b7c0f239abde7adb985670_hu17650242339175636388.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 交互作品《鱼与星河》作品介绍"
+                        
+                        data-hash="md5-1uoOO9K3wPI5q95625hWcA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">交互作品《鱼与星河》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.754ee3497901543efeda6bab32b3e01d_hu5691133100276226919.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍"
+                        
+                        data-hash="md5-dU7jSXkBVD7&#43;2murMrPgHQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">数字艺术作品《LifeSpark光韵》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.1cf26948d1073176b20862cc81fe9b85_hu17035262345010091125.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 虚拟拍摄微电影《下坠》作品介绍"
+                        
+                        data-hash="md5-HPJpSNEHMXayCGLMgf6bhQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">虚拟拍摄微电影《下坠》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2025 北辰开阳
+    </section>
+    
+    <section class="powerby">
+        
+            Creator create creative creations. <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

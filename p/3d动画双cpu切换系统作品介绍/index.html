@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="闲谈 其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?\n然后……然后……不小心掉进了一个很大的坑呢……\n总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。\n正好了解到上个动画作品用的云渲染平台“瑞云”在国内办了一届实时渲染比赛，参加一下试试。\n算是顺利完赛并且入围了（毕竟我这个刚入门的二流子实在是卷不过深耕多年的专业大学生23333）。\n">
+<title>3D动画《双CPU切换系统》作品介绍</title>
+
+<link rel='canonical' href='https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="3D动画《双CPU切换系统》作品介绍">
+<meta property='og:description' content="闲谈 其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?\n然后……然后……不小心掉进了一个很大的坑呢……\n总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。\n正好了解到上个动画作品用的云渲染平台“瑞云”在国内办了一届实时渲染比赛，参加一下试试。\n算是顺利完赛并且入围了（毕竟我这个刚入门的二流子实在是卷不过深耕多年的专业大学生23333）。\n">
+<meta property='og:url' content='https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/'>
+<meta property='og:site_name' content='北辰开阳'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-03-14T20:03:02&#43;08:00'/><meta property='article:modified_time' content='2022-03-14T20:03:02&#43;08:00'/><meta property='og:image' content='https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png' />
+<meta name="twitter:title" content="3D动画《双CPU切换系统》作品介绍">
+<meta name="twitter:description" content="闲谈 其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?\n然后……然后……不小心掉进了一个很大的坑呢……\n总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。\n正好了解到上个动画作品用的云渲染平台“瑞云”在国内办了一届实时渲染比赛，参加一下试试。\n算是顺利完赛并且入围了（毕竟我这个刚入门的二流子实在是卷不过深耕多年的专业大学生23333）。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu10430540906618922162.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">⭐</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">北辰开阳</a></h1>
+            <h2 class="site-description">Tech otakus change the world. 技术宅改变世界。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/87678460/'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/LegendEndless'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://steamcommunity.com/profiles/76561198849955202/'
+                        target="_blank"
+                        title="Steam"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" /><circle cx="16.5" cy="9.5" r="1" fill="currentColor" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=1984414140'
+                        target="_blank"
+                        title="网易云音乐"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-netease-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -1 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#闲谈">闲谈</a></li>
+    <li><a href="#承担工作">承担工作</a></li>
+    <li><a href="#制作时间">制作时间</a></li>
+    <li><a href="#故事简介">故事简介</a></li>
+    <li><a href="#制作理念">制作理念</a></li>
+    <li><a href="#复盘">复盘</a></li>
+    <li><a href="#预览">预览</a></li>
+    <li><a href="#奖项">奖项</a></li>
+    <li><a href="#图集">图集</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+                <img src="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final_hu4354933164904138855.png"
+                        srcset="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final_hu4354933164904138855.png 800w, /p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final_hu9169618809659789512.png 1600w"
+                        width="800" 
+                        height="390" 
+                        loading="lazy"
+                        alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" >
+                作品集
+            </a>
+        
+            <a href="/categories/3d/" >
+                3D
+            </a>
+        
+            <a href="/categories/%E6%B8%B2%E6%9F%93/" >
+                渲染
+            </a>
+        
+            <a href="/categories/%E5%8A%A8%E7%94%BB/" >
+                动画
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">3D动画《双CPU切换系统》作品介绍</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 14, 2022</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="闲谈">闲谈
+</h2><p>其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?<br>
+然后……然后……不小心掉进了一个很大的坑呢……<br>
+总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。<br>
+正好了解到上个动画作品用的云渲染平台“瑞云”在国内办了一届实时渲染比赛，参加一下试试。<br>
+算是顺利完赛并且入围了（毕竟我这个刚入门的二流子实在是卷不过深耕多年的专业大学生23333）。</p>
+<h2 id="承担工作">承担工作
+</h2><p>独立制作</p>
+<h2 id="制作时间">制作时间
+</h2><p>2022年2月 <br>
+大概花了7天</p>
+<h2 id="故事简介">故事简介
+</h2><p>主板上的电容阵列在晨曦中次第亮起，犹如星河初现。我凝视着这片由铜箔与硅晶构筑的微型宇宙，数据流在晶体管峡谷间折射出七彩极光。<br>
+&ldquo;反转协议启动。&ldquo;电子女声从SATA接口传出。寒霜核心突然下坠，赤炎核心同步抬升。熔岩般的红光瞬间吞没冰晶领域，风扇开始剧烈转动，机箱散热孔喷出的热风掀翻了电脑桌旁的草稿纸。</p>
+<h2 id="制作理念">制作理念
+</h2><p>大赛给到的主题是“旋转的平面”，时间是7秒，会有一个圆形的盘子在屏幕中间翻转。<br>
+在最开始的头脑风暴阶段，我设想过很多创意，例如立体停车装置，飞船入港装置&hellip;最后考虑到自身实力（其实是不敢眼高手低），选择了可以切换CPU的设计。<br></p>
+<h2 id="复盘">复盘
+</h2><p>作品的进步空间仍然很大&hellip;在最后评奖的所有入围作品点评环节，评委组给出了“缺少特效，如果能考虑到在切换CPU的时候能有来自四面八方的流光在电路板上汇聚到中央就更完美了”的意见。<br>
+评委的意见确实让我醍醐灌顶，我入门的太快，并没有死磕画面细节，包括粒子系统，UV特效等等都了解尚浅。</p>
+<h2 id="预览">预览
+</h2><p><a class="link" href="https://www.bilibili.com/video/BV1Xb4y1p7ie/"  title="b站跳转链接"
+     target="_blank" rel="noopener"
+    >瑞云首届实时渲染大赛入围作品合集</a>
+<br>我的作品在合集的3:54处。（当时比赛作品直接提交到大赛网站，所以没有传一份自己的版本到b站）<br></p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=637450768&bvid=BV1Xb4y1p7ie&cid=553683595&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<h2 id="奖项">奖项
+</h2><p>【新锐先锋 玩转未来】首届实时渲染大赛 学生组 入围奖</p>
+<h2 id="图集">图集
+</h2><p><img src="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png"
+	width="2559"
+	height="1331"
+	srcset="/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, /p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w"
+	loading="lazy"
+	
+		alt="做着做着贴图丢了，当时给我急的啊"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="192"
+		data-flex-basis="461px"
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.cccb0c7b5d630aa4e83b1579588e5dfc_hu834837294644908923.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 3D动画《睡》作品介绍"
+                        
+                        data-hash="md5-zMsMe11jCqToOxV5WI5d/A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">3D动画《睡》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.cafbe2f4a4c256fc1e17d3ca7e48d712_hu14554441686500411388.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 3D动画《童年》作品介绍"
+                        
+                        data-hash="md5-yvvi9KTCVvweF9PKfkjXEg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">3D动画《童年》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.ce1f38aef14eb10317e2c5c2ca39bf53_hu725451892442307357.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 3D动画《回到自己的位置上》作品介绍"
+                        
+                        data-hash="md5-zh84rvFOsQMX4sXCyjm/Uw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">3D动画《回到自己的位置上》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.d6ea0e3bd2b7c0f239abde7adb985670_hu17650242339175636388.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 交互作品《鱼与星河》作品介绍"
+                        
+                        data-hash="md5-1uoOO9K3wPI5q95625hWcA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">交互作品《鱼与星河》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.754ee3497901543efeda6bab32b3e01d_hu5691133100276226919.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍"
+                        
+                        data-hash="md5-dU7jSXkBVD7&#43;2murMrPgHQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">数字艺术作品《LifeSpark光韵》作品介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2025 北辰开阳
+    </section>
+    
+    <section class="powerby">
+        
+            Creator create creative creations. <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

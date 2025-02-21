@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>北辰开阳</title>
+        <link>https://lumistarry.github.io/</link>
+        <description>Recent content on 北辰开阳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>北辰开阳</copyright>
+        <lastBuildDate>Fri, 07 Feb 2025 23:58:41 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>交互作品《鱼与星河》作品介绍</title>
+        <link>https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Fri, 07 Feb 2025 23:58:41 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 交互作品《鱼与星河》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;再次接到同学的邀请，和他共同完成他的毕业设计，一个基于鱼缸的交互艺术作品。&lt;br&gt;
+年前忙了几天，年后8号他就要回北京上班了（字节实习），所以我们一合计，直接去他家高强度工作两天。&lt;br&gt;
+我担任的工作还是TA和程序。他的鱼缸需要一个程序同时展示艺术效果。&lt;br&gt;
+不愧是中传的高材生，大三就去字节实习了QAQ&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;全栈开发&lt;br&gt;
+技术美术&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2025年1月25日启动制作&lt;br&gt;
+2025年2月7日完成第一个demo&lt;br&gt;
+后续长期会进行制作和调试，在完成后也会更新在这里。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;这是一个基于计算机视觉识别的项目。鱼缸前有一个摄像头捕捉鱼的位置，鱼缸后有一个显示屏用来显示场景。&lt;br&gt;
+同时，鱼缸会挂载一个小型ITX主机用来运行软件。显示艺术场景和识别将集成到一个软件内。&lt;br&gt;
+最终的产品，我们打算采用一个小型鱼缸，小型显示屏和小型主机，同学已经找到了目标硬件，可以把成本控制的极低。同时也申请了实用新型专利。&lt;br&gt;
+&lt;br&gt;
+鱼的位置，动作与速度不同，都能和背后的场景产生互动。&lt;br&gt;
+在目前实现的demo中，我仍然采用Unity作为开发平台，且使用OpenCV作为视觉识别的环境。&lt;br&gt;
+由于我们需要实时追踪鱼的位置，所以先尝试了OpenCV内置的追踪算法，包括KCF，CSRT，MOSSE，MIL等。&lt;br&gt;
+在追踪到鱼的位置后，通过脚本将识别到的坐标信息转换为屏幕空间坐标并发送给场景，场景里的脚本读取再实现一些艺术效果。&lt;br&gt;
+最开始的设计是一朵云。鱼代表光源，移动到哪里就从不同的角度为云朵带来光照。&lt;br&gt;
+shader都写好了，云也做出来了（效果很赞！），然后发现打光有很大问题（天空是一个明亮的场景，在unity普通打光的话效果很烂。如果同样用shader精细化光线效果，可能iTX带不动），转而选择其他的场景方案。&lt;br&gt;
+最终选择了小黑屋中显示雕塑的效果，随着鱼的游动，光会照射到屋子里雕塑的不同位置。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;由于条件限制，我们使用了一个大鱼缸，后面接了一个大电视。&lt;br&gt;
+调试的时候发现，这个大鱼缸的杂光有点多，不纯且不均匀，导致OpenCV内置的算法非常容易跟丢目标。&lt;br&gt;
+最典型的例子是，由于鱼缸自带的光会照亮鱼，但是同时也会照亮鱼缸的玻璃四周，导致算法跟着跟着就锁到鱼缸本身了，然后就不动了。&lt;br&gt;
+以及，鱼它们跟！本！不！动！导致大多数时间完全没办法测试鱼游动的效果。&lt;br&gt;
+后来又花了一天的时间来优化视觉跟踪算法，并自己写了一套基于大致形状，亮度和颜色的识别机制，才勉强能在这个鱼缸里运行。&lt;br&gt;
+后面还会继续优化算法，来达到“可商用”的无bug完美运行效果。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;微信视频号搜索”CosineLab“。由于微信限制，暂无法输出外链。&lt;/p&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;Loading&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;1226&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu879115071411843982.png 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu16506462178050701284.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;最开始的设想，采用空中云朵的场景。&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;97&#34;
+		data-flex-basis=&#34;234px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace.jpg&#34;
+	width=&#34;2060&#34;
+	height=&#34;1170&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu15478130440971170558.jpg 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu8838123905500430565.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;测试视觉追踪算法&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;422px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light.jpg&#34;
+	width=&#34;2078&#34;
+	height=&#34;1158&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7107028700525122999.jpg 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7557250568796533538.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;测试灯光，彼时算法勉强能运行&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt; &lt;br&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SLG游戏《无尽天启》作品介绍</title>
+        <link>https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Mon, 30 Dec 2024 03:26:29 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post SLG游戏《无尽天启》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;游戏制作令我兴奋无比，每天。&lt;br&gt;
+还在制作《金克丝大冒险》的时候，我在Unity的论坛上翻资料，发现Unity官方准备在12月底也举办一次为期七天的GameJam。&lt;br&gt;
+能再得到一次锤炼自己的机会，何乐而不为呢。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;技术美术&lt;br&gt;
+程序开发&lt;br&gt;
+UI设计&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024年12月6日报名与组队 &lt;br&gt;
+2024年12月20日主题公布，开始制作&lt;br&gt;
+2024年12月27日制作完成并提交&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;进入22世纪后，宇宙发生了突如其来的异变，恒星活动变得异常频繁而剧烈，宇宙进入了【天启纪元】。&lt;br&gt;
+太阳在影响下变得异常剧烈，无穷无尽的太阳风暴席卷地球，摧毁了地球上的一切电网和通讯系统，并引起气候急剧变化，生态系统崩溃，暴风雪、极端热浪、台风、洪水和无休止的灾难接踵而至，人类社会几乎崩溃。&lt;br&gt;
+在突如其来的天灾之下，幸存的人类决定利用剩余的资源打造了【星舰】，在宇宙中寻找新的家园。&lt;br&gt;
+漫长的星际漂泊后，在资源即将耗尽之时，你们坠落在了这颗看似宜居的星球上。然而，这个星系的恒星同样不稳定，天灾仍不会停歇。&lt;br&gt;
+你需要带领人类，在无尽的天灾中生存下来，修复星舰，奔向宇宙，寻找新的希望。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;本次GameJam更注重团队分工，所以我担任最为熟悉的程序和TA。策划由专门的同学担任。&lt;br&gt;
+我们的构想是，制作一款类似《文明》《城市：天际线》《冰汽时代》的2.5D策略游戏。&lt;br&gt;
+玩家可以制造建筑，通过合理配置资源来完成既定目标。同时也要提防发生的一系列事件。&lt;br&gt;
+在游戏中，“事件系统”是玩家游玩的核心。事件分为”剧情事件““灾难事件”“社会事件”三个大类。&lt;br&gt;
+首当其冲的是剧情事件。太阳风暴是玩家要面对的首要目标。玩家需要建设家园，抵御太阳风暴的侵袭，几轮过后方可通关。&lt;br&gt;
+其次，还会随机发生一系列灾难和社会事件。这些事件是玩家游玩的主要乐趣来源。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;由于七天时间实在是有点紧张，作为新团队我们还是磨合的不够熟练，我和另外一个程序同学为了完成策划提出的全部要求，导致在提交当日凌晨五点才把所有的东西做完。&lt;br&gt;
+提交时间是下午四点，没有留够足够的时间调试，导致在最后提交的时候还是打包了一堆bug进去。&lt;br&gt;
+不过好在有惊无险的完赛了。&lt;br&gt;
+这次由于期望太高，我们两个程序彻夜赶工还是没有完美完成。&lt;br&gt;
+事件的配置采用了直接XML的方式，在脚本中可以直接读取。坏处就是改起来太不方便了（两个人写了堪比4个人的史山），而且有些逻辑没有分配执行顺序-最显眼的就是发现太阳被卡没了&amp;hellip;&amp;hellip;&lt;br&gt;
+我们计划寒假把这个游戏完善完善。游戏底子我们认为没啥问题，还是开发周期太过于紧张了。&lt;br&gt;
+等做完后看看能不能将其上架。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://unity.cn/gamejam2024/list?group=all&amp;amp;id=677392a9edbc2a00201b70b5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;游戏试玩《无尽天启》&lt;/a&gt;&lt;br&gt;
+该版本为提交到Unity的最初版本，不代表最终品质。&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event.png&#34;
+	width=&#34;2255&#34;
+	height=&#34;1065&#34;
+	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu9042123235802553616.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu10740071107632782254.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;人口和事件系统的策划文档&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;211&#34;
+		data-flex-basis=&#34;508px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc.png&#34;
+	width=&#34;1636&#34;
+	height=&#34;1197&#34;
+	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu12935532023008536082.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu519030272722633909.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;沟槽的Unity场景文件，使用git同步的时候发现了冲突，只会给一串数字，场景也打不开，不知道是谁干了啥&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;328px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.png&#34;
+	width=&#34;1213&#34;
+	height=&#34;606&#34;
+	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu929358478125121311.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu11935173875629416326.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;UI系统&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1439&#34;
+	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu10482464189232876460.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu1949763050793208502.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;游戏预览，太粗糙了QAQ&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2D游戏《金克丝大冒险》作品介绍</title>
+        <link>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Sun, 08 Dec 2024 21:26:29 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 2D游戏《金克丝大冒险》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。&lt;br&gt;
+再次检测一下我的Unity开发水平吧。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;全栈开发&lt;br&gt;
+技术美术&lt;br&gt;
+UI美术&lt;br&gt;
+关卡策划&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024年11月4日开始头脑风暴并构思&lt;br&gt;
+2024年11月18日正式开始制作&lt;br&gt;
+2024年11月26日开始第一次build&lt;br&gt;
+2024年12月4日开发和调试完成，输出最终版本&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;&amp;ldquo;警告：地面塌陷剩余3秒&amp;rdquo;&lt;br&gt;
+金克丝咬碎最后一口泡泡糖，荧光粉的唾沫星子溅在生锈的通风管道上。她的机械义肢正卡在两块摇晃的霓虹广告牌之间，下方三百米处，祖安地沟区的毒云像饥饿的紫色巨口般翻腾。&lt;br&gt;
+这是她改造后的第19版训练程序——把整个福根酒馆旧址改造成垂直死亡乐园。每块漂浮的炼金科技板都在全息投影里标注着危险等级：冒着电火花的齿轮平台是三级陷阱，杰斯遗留的海克斯能量板会随机过载，而那些涂着粉漆的砖块&amp;hellip;哈，那可是她特意为&amp;quot;贵宾&amp;quot;准备的惊喜礼包。&lt;br&gt;
+&amp;ldquo;执法官的小甜心们可真贴心~&amp;ldquo;金克丝咯咯笑着蹬碎一块印有凯特琳肖像的混凝土砖，腰间的z型驱动装置迸发蓝光，把她弹向更高处的悬浮货柜。&lt;br&gt;
+&amp;ldquo;这才够劲！&amp;ldquo;她甩出砰砰枪打碎头顶的玻璃穹顶，月光如瀑布般倾泻而下。那些漂浮的砖块突然活了过来：希尔科的齿轮徽章变成旋转刀盘，维克托的机械触手板伸出抓钩，而印着爆爆童年涂鸦的粉色砖块&amp;hellip;哈，踩上去会炸出彩虹烟雾！&lt;br&gt;
+在第七次被执法官无人机咬住裤脚时，金克丝终于启动了最终协议。鱼骨头火箭炮轰开天花板，露出隐藏在云层中的巨型海克斯水晶——这是她从杰斯实验室&amp;quot;借&amp;quot;来的圣诞装饰品，此刻正把整个夜空染成癫狂的紫红色。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;本游戏基于h5平台。&lt;br&gt;
+首先，本作的定位是一款内嵌于《英雄联盟手游》的H5小游戏。轻量化，触屏可操作性和简单易操作是作品的核心。&lt;br&gt;
+我们绝不能眼高手低好高骛远做出与自身能力不匹配的计划，或者高耗能无法移植的作品从而导致烂尾。&lt;br&gt;
+“小游戏”，顾名思义，要“小”。而针对它的面向对象是手游玩家，既要充当玩家在竞技之余放松的杀时间产品，又要保证其足够好玩。对此将展开游戏设计。&lt;br&gt;
+详细的制作理念，请阅读开发文档&lt;a class=&#34;link&#34; href=&#34;https://docs.qq.com/doc/p/1076af9df10f67b84ffbb437e493f649c0c8c05b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《金克丝大冒险》游戏设计文档&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://docs.qq.com/doc/p/bc9dc36a881a923edc7cd2e440ec6e6e8b23bfb4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《金克丝大冒险》程序开发文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;(部分内容在比赛结束后补写)&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“千万利器，莫过于你的信念。”&lt;br&gt;
+&amp;mdash;&amp;mdash;残月之啸 厄斐琉斯&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;怀揣着对游戏的无限热忱，我选择了计算机专业，选择了游戏行业。&lt;br&gt;
+有人问，你这么闷着头做研发，没有成就，没有营收，图什么？&lt;br&gt;
+我给出的回答是：&lt;br&gt;
+&amp;ldquo;一个游戏开发者，他的作品受到了很多人的喜欢。&lt;br&gt;
+这种时候，你就会感受到你从来不是孤单一人。&lt;br&gt;
+还有一帮素未谋面但又亲切万分的玩家惦记你的作品。&lt;br&gt;
+就是这种时刻，才是一个开发者，最棒的时刻。&amp;quot;&lt;br&gt;
+&lt;br&gt;
+&amp;hellip;&lt;br&gt;
+&lt;br&gt;
+比赛结束了，没有获得奖项。&lt;br&gt;
+优胜者的作品被制作进英雄联盟手游了，进去试玩了一下。&lt;br&gt;
+可以看出，我们的作品作为一款”小“作品，确实美术上还是没有到位（只有一位美术同学555）。&lt;br&gt;
+并且，由于采用了无尽的关卡设计，并没有让评委老师感受到“关卡玩法”这一内容。优胜者的作品虽然也简略粗糙，玩法也很单调，但是有基础的美术设计，统一的美术风格，还有六道不同的关卡。&lt;br&gt;
+将关卡设计交给随机算法，没有采用传统的关卡设计，确实是应该改进的地方。&lt;br&gt;
+而且，游戏体量过于单薄。《英雄联盟手游》项目组的目的显然是出品一款小活动，让用户花费一些时间，得到一些奖励物品的同时获得不重复的游戏体验。本游戏的玩法确实显得有些单调。&lt;br&gt;
+并且花费了相当多的时间来调试，debug，没有考虑到游戏在底层设计上出现了问题。&lt;br&gt;
+不断学习，不断进步吧。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://c0bl83jcgvu.feishu.cn/docx/WGOWd9IV8oN0GPxZ0lZcpdP5nad?from=from_copylink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《金克丝大冒险》视频预览&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;很遗憾。&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art.png&#34;
+	width=&#34;1043&#34;
+	height=&#34;1077&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu10998604177390005100.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu4349976379865968759.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;美术资源展示。和美术同学通过微信传文件，这是其中的一部分。&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;232px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1.png&#34;
+	width=&#34;1921&#34;
+	height=&#34;1082&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu13075817337563124966.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu332290086458783440.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;在Photoshop中进行游戏UI的比例设计&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2.png&#34;
+	width=&#34;1975&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu15444916176324844830.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu2448388993399716270.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;测试关卡中瓦片的生成算法。当时出现了bug，后来用了两天才定位到并解决。&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;487px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3.png&#34;
+	width=&#34;602&#34;
+	height=&#34;951&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu2229653323324694856.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu5392408370286161958.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;瓦片的随机生成算法。可以在Inspector中便捷的调试&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;63&#34;
+		data-flex-basis=&#34;151px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4.png&#34;
+	width=&#34;1005&#34;
+	height=&#34;1143&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu11908552189616641870.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu16171611655322765000.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;人物动画设计。后来工作量太大了决定大幅削减动画量&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;211px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5.png&#34;
+	width=&#34;1084&#34;
+	height=&#34;599&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu16694738305577418393.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu17679966495286624416.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;最终的UI设计&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>3D动画《睡》作品介绍</title>
+        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Fri, 15 Nov 2024 17:58:41 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.png" alt="Featured image of post 3D动画《睡》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;10月初看到b站up主“特效小哥”发起的b站举办的3D渲染大赛，还是手痒，再次参加一下。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024年10月6日开始头脑风暴并构思 &lt;br&gt;
+2024年10月14日正式开始制作&lt;br&gt;
+2024年11月13日制作完成&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;睡梦中恍惚又来到了高中教室，黑板上写着周末，身旁的笔仿佛有了生命力.&lt;br&gt;
+组成了自己儿时最向往但是从来没拥有过的 - 机甲玩具。&lt;br&gt;
+而在这即将完成解体升级的大业的时刻，门被一阵寒风吹开，现实在悄然扑来，原来的笔瞬间崩解，散落各处。&lt;br&gt;
+不过原来是虚惊一场。门重新阖实，从地板上伸出原先崩坏的双臂，能量在汇聚，机甲企盼着合体。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;头脑风暴阶段，本作品的世界观仍然沿用上部作品《童年》，采用以小见大的叙事风格。
+灵感则源于我的中学时代。众所周知，高中管理十分严格，在彼时少年的头脑中，身边每一只笔，每一本书都能成为乐趣的来源，幻想的乐园。&lt;br&gt;
+针对”Peng！“的主题，我设计了从小时候就幻想出来的由笔组成的两台机甲，在跑向彼此完成解体升级，成为更强悍的文具战神。&lt;br&gt;
+在即将合体之时，门突然被风吹开。梦境在褪去，现实中不允许此类“机甲”的出现，笔散落各处，完成了“Peng！”的动作。&lt;br&gt;
+而考虑到“梦境”的特性，我选择了三渲二的风格，以避开真实渲染下过于逼真导致的断裂感（其实很诡异就是了）。&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;我再也不参加渲染比赛了&amp;hellip;太太太太太卷了&amp;hellip;&amp;hellip;&lt;br&gt;
+还是不够“炫”，我选择了最擅长的“讲平淡的故事，引出平淡背后的波澜”，但是还是技术力跟不上555&lt;br&gt;
+而且组委会给的人物骨骼有问题&amp;hellip;我的人物模型就是死活绑不上去，只能手K动画了&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV17tUAYwEPU/&#34;  title=&#34;b站跳转链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《睡》b站3D渲染大赛作品&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=113474025820864&amp;bvid=BV17tUAYwEPU&amp;cid=26737511271&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;很遗憾&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1365&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu17851923957018258399.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu2249756266682146137.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;灯光及镜头测试&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;449px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1367&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu15166773787847407651.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu3605378414278733434.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;材质节点&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;449px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+	width=&#34;2554&#34;
+	height=&#34;1371&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu3580745216415355358.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu13854260495050771850.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;动画测试（手K的）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2D游戏《飞翔的阿乔》作品介绍</title>
+        <link>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Mon, 19 Aug 2024 13:37:17 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page3.png" alt="Featured image of post 2D游戏《飞翔的阿乔》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;八月份去上海参加了原神FES。&lt;br&gt;
+魔都不愧是魔都。黄浦区，徐汇区，长宁区，静安区&amp;hellip;每一个区的市貌都是先前未曾见到的风景。&lt;br&gt;
+参加完FES感触挺多的，尤其是差不多十点就开始在主舞台前抢位置了，蹲了快三个小时，算是驻扎在了一个非常靠前的位置。&lt;br&gt;
+对主舞台节目开场前这个暖场类FlyppyBird的小视频挺感兴趣的，回来之后仔细翻了翻录像，确认了应该是AE做的纯视频并非游戏实况。&lt;br&gt;
+所以打算在Unity里复刻一下这个小游戏，顺便看看我这Unity的三脚猫功夫有何进展。&lt;br&gt;
+从上海回来就动工了，游戏本身也比较简单，花了一天不到就做好了。&lt;br&gt;
+赶紧写完，明天去玩黑神话XD&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024年8月18日新建Unity项目&lt;br&gt;
+2024年8月19日完成&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;在旧日的纳塔「烈焰之国」，每一只新生古龙的翅膀上都镌刻着古老符文——那是火之魔神赐予的飞行契约。&lt;br&gt;
+然而深渊的崛起撕裂了天空，喘不过气的黑雾吞噬了气流，整个王国陷入窒息。&lt;br&gt;
+千万年后，有着传说中的伟大圣龙名号-库胡勒阿乔诞生于这世上。逃脱深埋于纳塔地下的溶洞，终点即为自由。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;仅仅是打算检验一下自己的Unity水平（好像有点太简单了说）&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;游戏太小了，唯一可惜的是没有做移动端和WebGL的多平台版本，以及不同比例分辨率下的GUI适配。&lt;br&gt;
+已经做到非常还原原视频里的效果了。不过，从游戏制作的角度看，可能角色动作还不够多，还不够流畅。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1YuWae8EjB/&#34;  title=&#34;b站跳转链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;b站视频跳转链接&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://wwpd.lanzn.com/i9KLx281c3vi&#34;  title=&#34;下载链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝奏云网盘下载链接&lt;/a&gt;&lt;br&gt;
+密码:enhw&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=112998760841766&amp;bvid=BV1YuWae8EjB&amp;cid=500001656906094&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;暂无&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1439&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu10782704032929512677.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu16866655769591057103.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;项目截图，黑神话太大了下不完，只能边下边继续写（悲&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2.png&#34;
+	width=&#34;1321&#34;
+	height=&#34;674&#34;
+	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu11462296204099294054.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu5397031744640607361.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;游戏素材来源：化身PS糕手，录像静帧抠像。&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;195&#34;
+		data-flex-basis=&#34;470px&#34;
+	
+&gt; &lt;br&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>3D动画《童年》作品介绍</title>
+        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Sun, 12 May 2024 17:21:20 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.png" alt="Featured image of post 3D动画《童年》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;愚者总按两遍铃。&lt;br&gt;
+打算总结这篇作品的当天，我完成了《崩坏：星穹铁道》2.2版本的开拓任务“然后在第八天”。&lt;br&gt;
+首先，非常感谢miHoYo为我呈现了一个复杂的，精美的，眼花缭乱而又不失章法的美丽故事。&lt;br&gt;
+正是这三个版本的故事让我有了一种创作的冲动。我也想通过动画再次创作一篇故事。&lt;br&gt;
+正好最近学习了一些三渲二的知识，看到米哈游在海外举办的创作者活动的“3D渲染特别赛道”之后，我决定动笔。&lt;br&gt;
+其实是动鼠标。&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024.4.16新建文件夹 &lt;br&gt;
+2024.5.1完工&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;当吊灯的光斑在黄昏6:23分准时漫过橡皮擦警戒线，所有被日光封印的文明将在0.7秒内完成苏醒。&lt;br&gt;
+数学练习册在穿堂风中掀起页角，铅笔盒缝隙渗出可疑的机油痕迹。被咬出齿痕的2B铅笔斜插在修正液空瓶上，在木纹沟壑间投下战舰引擎的阴影。&lt;br&gt;
+飞艇在城市里游走，汽车在路上轰鸣。阑珊的霓虹灯管间，时间在不经意的流走。&lt;br&gt;
+我们总以为幻想是现实的逃逸，却忘了课桌裂缝里那些被橡皮擦去的涂鸦，或许正是平行宇宙发送的星际坐标。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;灵感来源于儿时回忆。小时候不好好听课在课桌上玩笔，幻想手里的笔是星舰，书本是星港&amp;hellip;.&lt;br&gt;
+该比赛的主题为“入梦”。主办方给出了“匹诺康尼，入梦池，入梦”的参考template。&lt;br&gt;
+基于这份主题，我选定了童年的这份幻想：白天还是普通的课桌，一到晚上就变成了色彩斑斓的赛博都市。&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;首次尝试三渲二风格化渲染，采用EEVEE引擎并仔细调整了节点使场景效果更接近动漫。&lt;br&gt;
+但是可能在特效表现上还是不够足，换句话说，就是不够“炫”，没法打动评委老师。&lt;br&gt;
+还是讲故事的手段太平淡了。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1jz1VYQEo2/%22b%e7%ab%99%e8%b7%b3%e8%bd%ac%e9%93%be%e6%8e%a5%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动画短片《童年》&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=113383697552872&amp;bvid=BV1jz1VYQEo2&amp;cid=26393772374&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;很遗憾。&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1369&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu1650423106809737760.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu13920087633229618344.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;材质测试&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1372&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu6519418549454790134.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu4174921472181224548.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;动画测试&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1371&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu1090760635904510520.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu5899657683672277620.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;EEVEE调好了效果还是挺赞的，为此我毅然决然的抛弃了3ds max（其实是3ds max不太容易做三渲二）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>数字艺术作品《LifeSpark光韵》作品介绍</title>
+        <link>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Wed, 07 Feb 2024 15:26:29 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;在上次虚拟摄像的短片之后，得知我对TA岗很感兴趣，那位同学又向我发来了邀请，协助他完成一项基于虚拟现实平台的软件作品。&lt;br&gt;
+这是我第一次接触全栈开发和Unity，自然要全力以赴。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;技术美术&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2024年1月24日开启制作&lt;br&gt;
+2024年1月25日完成基于webView显示效果的第一版demo&lt;br&gt;
+由于无法离线运行，边啃Unity边尝试先使用纯Swift库里支持的粒子效果做出demo&lt;br&gt;
+1月27日在本地运行的第二版demo完成&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;彼时Vision Pro即将在大陆发售，动院也采购了几台。&lt;br&gt;
+这是一个很新奇的产品。Apple带头炒热了基于虚拟现实平台的相关概念。&lt;br&gt;
+自然，其落地后的实际运用会是如何也成为了研究的目标。&lt;br&gt;
+我们的产品是一款健康软件，可以基于用户的健康数据（例如步数，心率等）来向用户展示不同的数字艺术作品。&lt;br&gt;
+最开始的构想是星空，泡泡一类。用户的步数越多，星星等内容物的数量就越多，场景就越漂亮。&lt;br&gt;
+产品对标iOS上的知名应用程序Forest和SleepTown。&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;最开始，我们打算基于现成的粒子平台Spline，通过调用其接口来实现目的。&lt;br&gt;
+优点是，所有想要实现的效果（例如星空等粒子效果）都是现成的，通过调用就可以直接实现。&lt;br&gt;
+但是后续的制作中发现，Spline没有完成对Unity的支持，导致我们完全无法修改其中的粒子效果，无法达成”基于健康数据来改变艺术场景“的目的。&lt;br&gt;
+而且Spline只能基于WebView调用，无法在离线模式下运行。这就导致用户如果不联网软件就寄了。&lt;br&gt;
+并且，由于我们打算上架Apple相关平台，iOS设备的隐私权限纷繁复杂，我们这种需要读取用户健康数据的产品，没有开发经验，几乎每一步都会遇上报错&amp;hellip;..&lt;br&gt;
+所以之后我从0开始学习Unity，用三天的时间勉强搓出来了一个还能看得过去的粒子效果。&lt;br&gt;
+&amp;hellip;&amp;hellip;
+过完年之后，Vision Pro开始大量铺货，货源不再那么紧张，退烧之后，人们才发现这款产品并不像想象中那么美好。&lt;br&gt;
+高情商的说，大部分功能在本世代很超前，很先进。低情商的说法就是完全没用。&lt;br&gt;
+考虑到这些问题，demo第二版在完成之后，项目无限期被搁置。&lt;br&gt;
+不过，这仍然是我第一次以TA的身份来参与整个项目。为理解美术和技术的需求，阅读了大量文献，实现了很多效果。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;实机预览：&lt;br&gt;
+&lt;video src=&#34;./Replay.mp4&#34; autoplay=&#34;true&#34; controls=&#34;controls&#34; width=&#34;400&#34; height=&#34;300&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;建议使用Chromium内核的浏览器打开。若打不开，往次demo预览：
+&lt;a class=&#34;link&#34; href=&#34;https://c0bl83jcgvu.feishu.cn/docx/UcptdMm87oD2tRx6ZDocuTZTnEe?from=from_copylink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;demo预览文档，点击进入即可查看视频&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+	width=&#34;1866&#34;
+	height=&#34;1100&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;项目文档展示，设想中的粒子效果&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;989&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu255438082799557746.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu789752183836119460.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;UI设计&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu1184432074502358987.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu3733737775425340093.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;VisionOS的UI设计&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+	width=&#34;1866&#34;
+	height=&#34;1100&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;项目文档展示，产品概念及目标用户&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>虚拟拍摄微电影《下坠》作品介绍</title>
+        <link>https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Tue, 05 Dec 2023 11:39:45 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.jpg" alt="Featured image of post 虚拟拍摄微电影《下坠》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;收到了在中传读书的高中同学的邀请，作为团队的一员参与其执导的虚拟拍摄的短片。&lt;br&gt;
+事件的起因是同学听闻中传新建了一块三个面的虚拟LED大屏，可以用作影视的虚拟背景使用。随即向导师申请了使用，并组建了一个团队用来制作一部短片。&lt;br&gt;
+荣幸之至，我能成为团队的一员，负责其中场景的某些资产的模型制作。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;3D资产制作&lt;br&gt;
+技术美术&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2023年10月8日接到邀请&lt;br&gt;
+2023年10月17日开始资产制作&lt;br&gt;
+2023年11月3日开始在动院片场实拍&lt;br&gt;
+2023年11月4日杀青&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;控制台警报声响起时，我正凝视着舷窗外斑斓的涡旋。&lt;br&gt;
+这颗巨行星虹彩斑斓的云层突然张开深渊，飞船像片卷入漩涡的金属羽毛开始下坠。&lt;br&gt;
+氧气面罩自动扣合的瞬间，我看见云层深处游动的猩红色风暴，恍若凝视深渊的亿万只眼睛。&lt;br&gt;
+仪表盘蓝光在面罩上跳动成星群，那些曾在北航模拟过千万次的公式突然有了温度。当操纵杆推过临界点，船体发出远古巨鲸般的悲鸣——我们正在把死亡螺旋改写成交响乐的休止符。&lt;br&gt;
+引力绳索绷紧的刹那，整个宇宙都在共振。飞船化作芭蕾舞者足尖，沿着木星磁场编织的银蓝色光弧滑行。&lt;br&gt;
+防护罩与大气摩擦迸发的幽绿火焰，像极了故乡仲夏夜的萤群。&lt;br&gt;
+加速度将我的视网膜压出彩虹，忽然想起训练基地后山那些层层叠叠的枫叶，也是这样在离心力中旋转着挣脱枝头。&lt;br&gt;
+&amp;hellip;
+舷窗重新映出银河时，导航仪显示我们正沿着新生的轨道滑向深空。&lt;br&gt;
+残留的金属震颤中，我摘下被冷汗浸透的手套，轻轻触碰玻璃上凝结的霜花——那是木星大气赠送的钻石尘埃，正在永恒真空中折射着太阳系最古老的光。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;源头是学院的一个短片项目，我们讨论要拍摄一个科幻短片。&lt;br&gt;
+一开始只是设想了场景中要有飞船操作舱，不过对于我们这些普通学生来说，如果全部的飞船场景都采用实景拍摄或者绿幕制作，所需的资金和时间成本我们难以支持。&lt;br&gt;
+而恰好在我们动院的三楼，新建了一个搭载了虚拟拍摄系统的虚拟影棚，在与虚幻引擎制作的场景结合后，能够配合实景道具实现一个虚拟的飞船操作舱的数字置景。于是我们才最终敲定了科幻的题材和制作的流程方案。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;在前期的准备阶段，我们有在绿幕和虚拟拍摄中权衡过，最后还是选择了虚拟拍摄。&lt;br&gt;
+一个原因是成本，虚拟拍摄极大的节省了后期成本，因为我们是学生，本片的预算也仅有几千块钱；而且制作时间也比较短，从前期到出片应该也就3-4周的时间，虚拟拍摄的部分总共用了2天就完成了。&lt;br&gt;
+如果要是采用绿幕的话，扣像以及合成的资金和时间成本我们也不足以支持，我们估算如果采用绿幕，后期的制作时间至少在一个月左右，估计现在也不一定能完成制作。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/gib4Yj8PxIyn1Hz5JrVdAg&#34;  title=&#34;微信文章跳转链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;实验短片《下坠》&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;第一届中国影视新力量创意竞赛“最佳视觉效果奖” &lt;br&gt;
+北京国际电影节2024雄安未来影像电影季 最佳学生科幻创作 入围&lt;br&gt;
+2024北京市动漫设计大赛 视觉特效类 一等奖&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1.jpg&#34;
+	width=&#34;6240&#34;
+	height=&#34;4160&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu9192467364850173479.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu14268383881055700750.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;片场照，中心为演员，背后为虚拟大屏&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2.jpg&#34;
+	width=&#34;6240&#34;
+	height=&#34;4160&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu13287255559616566062.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu2985179574981223218.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;三位核心主创&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3.jpg&#34;
+	width=&#34;4608&#34;
+	height=&#34;3456&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu13023182999274428867.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu1261617180840387157.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;另一个角度的片场照，背景为我制作的3D资产，由虚幻引擎呈现&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1551&#34;
+	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu1240101345866613659.png 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu7950870758740490890.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;在UE引擎中的场景效果&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;395px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>博客迁移</title>
+        <link>https://lumistarry.github.io/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
+        <pubDate>Fri, 21 Jul 2023 17:12:29 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
+        <description>&lt;h2 id=&#34;环佩凭栏望千帆&#34;&gt;环佩凭栏望千帆
+&lt;/h2&gt;&lt;p&gt;算是离开了高中校园。 &lt;br&gt;
+这几天一直在练车，总算找到一个整块的事件来迁移博客了。&lt;br&gt;
+原来的博客被我偷偷部署在学校的服务器里。去年年底疫情离校前，我把所有数据拷了出来。&lt;br&gt;
+原来博客用的网页前端简陋无比，这次迁移就换了一个崭新一点，好看一点的模板，并且部署在GitHub上，开通了pages。&lt;br&gt;
+不过鉴于国内无法正常访问，回头找个时间看看能不能在Gitee上也做一份备份（考虑到Gitee繁杂的监管&amp;hellip;）&lt;br&gt;
+&lt;br&gt;
+此博客在未来也会存一下我的作品和项目经历。如果以后对技术有些研究，也会存一些技术文章。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>高三随笔</title>
+        <link>https://lumistarry.github.io/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</link>
+        <pubDate>Wed, 12 Jul 2023 16:49:34 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</guid>
+        <description>&lt;p&gt;（本文原作于2023年5月31日，作者的18岁生日来临之际。高考后上传至博客。）
+（原件已佚）&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>《光景之季》光·遇三周年同人画集</title>
+        <link>https://lumistarry.github.io/p/%E5%85%89%E6%99%AF%E4%B9%8B%E5%AD%A3%E5%85%89%E9%81%87%E4%B8%89%E5%91%A8%E5%B9%B4%E5%90%8C%E4%BA%BA%E7%94%BB%E9%9B%86/</link>
+        <pubDate>Fri, 22 Jul 2022 19:04:09 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/%E5%85%89%E6%99%AF%E4%B9%8B%E5%AD%A3%E5%85%89%E9%81%87%E4%B8%89%E5%91%A8%E5%B9%B4%E5%90%8C%E4%BA%BA%E7%94%BB%E9%9B%86/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/%E5%85%89%E6%99%AF%E4%B9%8B%E5%AD%A3%E5%85%89%E9%81%87%E4%B8%89%E5%91%A8%E5%B9%B4%E5%90%8C%E4%BA%BA%E7%94%BB%E9%9B%86/beegees.jpg" alt="Featured image of post 《光景之季》光·遇三周年同人画集" /&gt;&lt;h2 id=&#34;光是遇见就很美好&#34;&gt;光是遇见，就很美好
+&lt;/h2&gt;&lt;p&gt;恰逢Sky光·遇三周年之际，来自Twitter的艺术家Cheryl主导并邀请了几位其他的画师共同完成并发布了他们的数字画集《Season of Beegees》。&lt;br&gt;
+经过与作者的友好交涉与沟通，我拿到了该作品的中文翻译授权，并将汉化后的文本交由Cheryl，重新制作了一份简体中文的版本，在中国大陆地区发布。&lt;br&gt;
+汉化后的画集完整中文译名定为《奇妙之旅：光景之季》，在宣传时则采用简称《光景之季》。&lt;br&gt;
+这是一本全数字化的绘本，基于天空王国所有地域的场景美术进行了艺术延伸和加工。未来，它也将包含所有新的奇妙之旅季节的场景！&lt;br&gt;
+书的结尾含有额外的内容，讲述了Cheryl是如何创作出这本书的:D&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;p&gt;本画集免费发布，是一项抒发我们对《Sky光·遇》喜爱的同人作品。因此，您可独立的把它打印出来并装裱以供欣赏，但是不能用作商业用途。Cheryl和她的朋友们保留对该作品的著作权，您不能拿本书其中的部分或全部内容进行二次创作，借鉴元素或者抄袭。&lt;/p&gt;
+&lt;h2 id=&#34;资源&#34;&gt;资源
+&lt;/h2&gt;&lt;p&gt;阿里：&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.aliyundrive.com/s/LqhiYhbSpd2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.aliyundrive.com/s/LqhiYhbSpd2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;百度：&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;链接：https://pan.baidu.com/s/1wWwCnXyGIfL8XaXMHa3ZOQ 提取码：2333&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>3D动画《双CPU切换系统》作品介绍</title>
+        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Mon, 14 Mar 2022 20:03:02 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png" alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?&lt;br&gt;
+然后……然后……不小心掉进了一个很大的坑呢……&lt;br&gt;
+总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。&lt;br&gt;
+正好了解到上个动画作品用的云渲染平台“瑞云”在国内办了一届实时渲染比赛，参加一下试试。&lt;br&gt;
+算是顺利完赛并且入围了（毕竟我这个刚入门的二流子实在是卷不过深耕多年的专业大学生23333）。&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2022年2月 &lt;br&gt;
+大概花了7天&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;主板上的电容阵列在晨曦中次第亮起，犹如星河初现。我凝视着这片由铜箔与硅晶构筑的微型宇宙，数据流在晶体管峡谷间折射出七彩极光。&lt;br&gt;
+&amp;ldquo;反转协议启动。&amp;ldquo;电子女声从SATA接口传出。寒霜核心突然下坠，赤炎核心同步抬升。熔岩般的红光瞬间吞没冰晶领域，风扇开始剧烈转动，机箱散热孔喷出的热风掀翻了电脑桌旁的草稿纸。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;大赛给到的主题是“旋转的平面”，时间是7秒，会有一个圆形的盘子在屏幕中间翻转。&lt;br&gt;
+在最开始的头脑风暴阶段，我设想过很多创意，例如立体停车装置，飞船入港装置&amp;hellip;最后考虑到自身实力（其实是不敢眼高手低），选择了可以切换CPU的设计。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;作品的进步空间仍然很大&amp;hellip;在最后评奖的所有入围作品点评环节，评委组给出了“缺少特效，如果能考虑到在切换CPU的时候能有来自四面八方的流光在电路板上汇聚到中央就更完美了”的意见。&lt;br&gt;
+评委的意见确实让我醍醐灌顶，我入门的太快，并没有死磕画面细节，包括粒子系统，UV特效等等都了解尚浅。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Xb4y1p7ie/&#34;  title=&#34;b站跳转链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;瑞云首届实时渲染大赛入围作品合集&lt;/a&gt;
+&lt;br&gt;我的作品在合集的3:54处。（当时比赛作品直接提交到大赛网站，所以没有传一份自己的版本到b站）&lt;br&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=637450768&amp;bvid=BV1Xb4y1p7ie&amp;cid=553683595&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;【新锐先锋 玩转未来】首届实时渲染大赛 学生组 入围奖&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png&#34;
+	width=&#34;2559&#34;
+	height=&#34;1331&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;做着做着贴图丢了，当时给我急的啊&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>3D动画《回到自己的位置上》作品介绍</title>
+        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Fri, 17 Dec 2021 22:11:34 +0800</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.png" alt="Featured image of post 3D动画《回到自己的位置上》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+&lt;/h2&gt;&lt;p&gt;疫情封校，又开始了快/乐的网课生活。&lt;br&gt;
+得到了消息，今年暑假做的这个3D动画在中传举办的“小白杨奖”获得了三等奖，可喜可贺！&lt;br&gt;
+尤其是从零开始（学软件）到制作出成品，就花了两周（叉腰&lt;br&gt;
+趁着这个时间，梳理了一下制作过程，并记录在这里。&lt;/p&gt;
+&lt;h2 id=&#34;承担工作&#34;&gt;承担工作
+&lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
+&lt;h2 id=&#34;制作时间&#34;&gt;制作时间
+&lt;/h2&gt;&lt;p&gt;2021年8月 &lt;br&gt;
+大概花了14天&lt;/p&gt;
+&lt;h2 id=&#34;故事简介&#34;&gt;故事简介
+&lt;/h2&gt;&lt;p&gt;正午十二点的下课铃刚响，教室就喧闹起来。
+喧闹过后，鼎沸的人声随即变得稀少。同学们纷纷奔向食堂。
+随着最后一名同学路过桌旁，书包带子勾住它吸附的书立，小时钟顿时骨碌碌滚到了教室后墙的角落。
+随即发生的，就是小时钟努力奋斗的故事。&lt;/p&gt;
+&lt;h2 id=&#34;制作理念&#34;&gt;制作理念
+&lt;/h2&gt;&lt;p&gt;彼时看了很多Pixar的动画短片，对其拟物化的制作能力和表现出的非人角色生命力深深折服。于是乎将目光聚焦于高中课桌上低头见抬头也见的小时钟，为其编写了一段故事。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;复盘&#34;&gt;复盘
+&lt;/h2&gt;&lt;p&gt;这是我自个儿制作的第一个动画作品，因为事事都是亲历亲为（音效都是我用糟糕的iPad麦克风对着桌子录的）确实充斥着各种不足，有些镜头以现在的眼光看确实显得不明所以，分镜和编剧设计也漏洞百出&amp;hellip;但是算是我的处女作吧。&lt;br&gt;
+未来的我会记得，我是从高中教室里一个普通的不能再普通的座位上出发的。&lt;/p&gt;
+&lt;h2 id=&#34;预览&#34;&gt;预览
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1FA411w7Cc/&#34;  title=&#34;b站跳转链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动画短片《回到自己的位置上》&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=335237854&amp;bvid=BV1FA411w7Cc&amp;cid=400892332&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;奖项&#34;&gt;奖项
+&lt;/h2&gt;&lt;p&gt;[Aniwow!2021]第十六届中国（北京）国际大学生动画节“小白杨奖” 三等奖&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1.jpg&#34;
+	width=&#34;2496&#34;
+	height=&#34;1600&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu49029493748872486.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu9196177196243033886.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;用的是父亲的旧笔记本，特别卡，渲染一帧要17分钟&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1.jpg&#34;
+	width=&#34;1622&#34;
+	height=&#34;1188&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu11054177596064333317.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu15457270136325870856.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;渲染出的第一帧，当时给我激动坏了&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;327px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file.png&#34;
+	width=&#34;1077&#34;
+	height=&#34;1072&#34;
+	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu11280380080387897023.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu15866820466191371326.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;没做资产管理的下场，几乎一个镜头用一个场景2333&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>博客从这里开始</title>
+        <link>https://lumistarry.github.io/p/test-chinese/</link>
+        <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://lumistarry.github.io/p/test-chinese/</guid>
+        <description>&lt;img src="https://lumistarry.github.io/p/test-chinese/hello.jpeg" alt="Featured image of post 博客从这里开始" /&gt;&lt;h2 id=&#34;博客一个日趋过时的中古交流方式&#34;&gt;博客：一个日趋过时的中古交流方式
+&lt;/h2&gt;&lt;p&gt;和博客的缘分始于小学。&lt;br&gt;
+当时沉迷科幻小说无法自拔，为了寻找一些令人激动的情节和段落，就在有限的电脑使用事件中游走在各大博客网站之中。&lt;br&gt;
+后来也喜欢上了用笔写点东西，自然也开始写自己的博客。&lt;br&gt;
+对我来说，博客是网络的发源地。虽然在今天，这种叙事方式显得有些过时，但是在快节奏的当下，你还可以静静的坐在电脑前，静静的阅读作者的一些思考。&lt;br&gt;
+于是，我选择在这里留下我的一些文字。&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;繁星故事与我&#34;&gt;繁星，故事，与我
+&lt;/h2&gt;&lt;p&gt;我从小就喜欢故事。&lt;br&gt;
+自三岁起，家里就莫名其妙多了很多不同种类不同厚度不同大小的书籍。&lt;br&gt;
+儿时的我对一切仍保持好奇，每当随手翻开一副封面，就是一片全新的大地。&lt;br&gt;
+在这期间，我不再是我。我是关羽，是盖亚，是奥丁…我可以是任何人，体验任何人的故事。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;和游戏的缘分始于八岁。那年，通过杂志《少年电脑世界》，我发现了一款风靡全球的沙盒游戏。&lt;br&gt;
+当时我还不会念这个游戏的名字。但是通过每个月刊载在杂志上该游戏的固定专栏，我了解到了这个游戏的玩法：广阔大陆，红石科技，各种奇异的怪物，武器和工具……&lt;br&gt;
+Minecraft是世界上最棒的游戏，因为它把故事的撰写权交给了玩家自己。&lt;br&gt;
+在其他游戏里，我体验的是别人写的故事；而在Minecraft中，我就是故事的作者，我就是故事本身。&lt;/p&gt;
+&lt;p&gt;十一岁时，我了解到了两款软件：“忆游横版游戏制作”和“橙光游戏”。&lt;br&gt;
+读了很多故事，也写了很多故事，能不能试试表演故事？&lt;br&gt;
+我买了一个小本子，在上面画满了游戏设计图。&lt;br&gt;
+受限于父母对电脑的管理之严，我只能记下来我的所有灵感，择时再予以实现。&lt;br&gt;
+本子画了一半的时候，被母亲收走了，小升初来了。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;上了初中，我又能写故事了。我的语文老师非常擅长布置作业，对我来说，她教的语文是第一个能让我燃起“写的欲望”的学科。&lt;br&gt;
+在她布置的作业里，我得以一次又一次的挥洒创意。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;后来，我平稳的度过了初中生涯。2020年，我以一个不算太差的成绩考入本省一所重点高中。&lt;br&gt;
+进入高中，我就喜欢上了自个儿捣鼓电脑软件。我从Minecraft的模组魔改和编写出发，随后开始学习数字媒体技术：例如各种媒体软件的实际应用，数字影片的拍摄等。高一下学期，我加入了学校的广播社团，参与录制节目，后期编辑的工作。&lt;br&gt;
+在高一的暑假，我制作了一部原创的3D动画，使用3ds Max制作，Vray渲染。&lt;br&gt;
+我已经忘了当时为什么会突然燃起对3D动画的兴趣，也忘了为什么要一门心思扑进3ds Max这个大坑里。&lt;br&gt;
+结果也令人欣喜。这部花了我足足两周、充满了资产复用和镜头复用的作品拿了一个不算很出名的小奖。&lt;br&gt;
+此后我就越来越沉迷3D动画。我参加了一次3D渲染大赛并成功完赛，为学校的宣传片制作了一些虚拟镜头…&lt;br&gt;
+我确信我的未来会以计算机+动画+故事的形式组成。
+那可能就是游戏。&lt;/p&gt;
+&lt;h2 id=&#34;作结&#34;&gt;作结
+&lt;/h2&gt;&lt;p&gt;好久没有正襟危坐，摒除杂念，沉下心来写一篇文章了。&lt;br&gt;
+写了这么多年“别人的故事”，这是我第一次写“我的故事”，观察在过去的我身上发生的事情。&lt;br&gt;
+我对我自己也有了些新的理解。&lt;br&gt;
+现在是2021年12月4日，因为又有了一次突发性疫情，学校提前放假，而我也得以摸到学校机房，写下这些东西。&lt;br&gt;
+十年后的我会是怎么样呢？&lt;br&gt;
+我的作品会受到很多人的喜爱吗？&lt;br&gt;
+我向十年后的我发问。&lt;br&gt;
+回应我的没有27岁的我的声音，只有耳边前进的猎猎风声。&lt;br&gt;
+&lt;br&gt;
+最后，放上一句我一直很喜欢的诗：&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;二十年之后，更令你懊悔的不是你做了什么，而是你没做什么。所以解开帆索，离开安全的港湾，赶着航程中的信风，去探索，去梦想，去发现。 &lt;br&gt;&lt;br&gt;
+出自 Minecraft终末之诗&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;图片&#34;&gt;图片
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/test-chinese/classroom.jpg&#34;
+	width=&#34;1706&#34;
+	height=&#34;1279&#34;
+	srcset=&#34;https://lumistarry.github.io/p/test-chinese/classroom_hu17703864362891912256.jpg 480w, https://lumistarry.github.io/p/test-chinese/classroom_hu8364165754831637840.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;封校时空无一人的教室&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://lumistarry.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://lumistarry.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://lumistarry.github.io/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lumistarry.github.io/about/</guid>
+        <description>&lt;p&gt;你好，欢迎来到我的博客！&lt;br&gt;
+我是北辰开阳，真名卢硕，目前就读于广西科技大学，软件工程专业。&lt;br&gt;
+爱好弹钢琴，写代码，计算机图形学，还喜欢写点小字。&lt;br&gt;
+未来计划投身于游戏行业，成为技术美术的年轻力量。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;个人邮箱：lush625@outlook.com&lt;br&gt;
+有关我参与的项目和作品，可以戳我的作品集。或者直接在本博客“归档”栏选中作品集Tag即可！&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/about/Minecraft15th.jpg&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://lumistarry.github.io/about/Minecraft15th_hu15221631051835315114.jpg 480w, https://lumistarry.github.io/about/Minecraft15th_hu7428435252021162544.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;技术宅改变世界&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://lumistarry.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lumistarry.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友情链接</title>
+        <link>https://lumistarry.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lumistarry.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
