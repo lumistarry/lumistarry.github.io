@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>2D on 北辰开阳</title>
-        <link>https://lumistarry.github.io/categories/2d/</link>
+        <link>http://localhost:1313/categories/2d/</link>
         <description>Recent content in 2D on 北辰开阳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>北辰开阳</copyright>
-        <lastBuildDate>Mon, 30 Dec 2024 03:26:29 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/categories/2d/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 30 Dec 2024 03:26:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/2d/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SLG游戏《无尽天启》作品介绍</title>
-        <link>https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Mon, 30 Dec 2024 03:26:29 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post SLG游戏《无尽天启》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post SLG游戏《无尽天启》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;游戏制作令我兴奋无比，每天。&lt;br&gt;
 还在制作《金克丝大冒险》的时候，我在Unity的论坛上翻资料，发现Unity官方准备在12月底也举办一次为期七天的GameJam。&lt;br&gt;
 能再得到一次锤炼自己的机会，何乐而不为呢。&lt;br&gt;&lt;/p&gt;
@@ -51,10 +51,10 @@ UI设计&lt;br&gt;&lt;/p&gt;
     &gt;游戏试玩《无尽天启》&lt;/a&gt;&lt;br&gt;
 该版本为提交到Unity的最初版本，不代表最终品质。&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event.png&#34;
 	width=&#34;2255&#34;
 	height=&#34;1065&#34;
-	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu9042123235802553616.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu10740071107632782254.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu9042123235802553616.png 480w, http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/event_hu10740071107632782254.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;人口和事件系统的策划文档&#34;
@@ -65,10 +65,10 @@ UI设计&lt;br&gt;&lt;/p&gt;
 		data-flex-basis=&#34;508px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc.png&#34;
 	width=&#34;1636&#34;
 	height=&#34;1197&#34;
-	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu12935532023008536082.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu519030272722633909.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu12935532023008536082.png 480w, http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/unitydoc_hu519030272722633909.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;沟槽的Unity场景文件，使用git同步的时候发现了冲突，只会给一串数字，场景也打不开，不知道是谁干了啥&#34;
@@ -79,10 +79,10 @@ UI设计&lt;br&gt;&lt;/p&gt;
 		data-flex-basis=&#34;328px&#34;
 	
 &gt;&lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.png&#34;
 	width=&#34;1213&#34;
 	height=&#34;606&#34;
-	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu929358478125121311.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu11935173875629416326.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu929358478125121311.png 480w, http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu11935173875629416326.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UI系统&#34;
@@ -93,10 +93,10 @@ UI设计&lt;br&gt;&lt;/p&gt;
 		data-flex-basis=&#34;480px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1439&#34;
-	srcset=&#34;https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu10482464189232876460.png 480w, https://lumistarry.github.io/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu1949763050793208502.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu10482464189232876460.png 480w, http://localhost:1313/p/slg%E6%B8%B8%E6%88%8F%E6%97%A0%E5%B0%BD%E5%A4%A9%E5%90%AF%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/game_hu1949763050793208502.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;游戏预览，太粗糙了QAQ&#34;
@@ -111,11 +111,11 @@ UI设计&lt;br&gt;&lt;/p&gt;
         </item>
         <item>
         <title>2D游戏《金克丝大冒险》作品介绍</title>
-        <link>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Sun, 08 Dec 2024 21:26:29 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 2D游戏《金克丝大冒险》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 2D游戏《金克丝大冒险》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;动院和腾讯英雄联盟手游一起举办了小游戏设计大赛，期限一个月，设计出一款基于LOL世界观的web小游戏。表现优异的会被整合进LOLM游戏里。&lt;br&gt;
 再次检测一下我的Unity开发水平吧。&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;承担工作&#34;&gt;承担工作
@@ -171,12 +171,12 @@ UI美术&lt;br&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://c0bl83jcgvu.feishu.cn/docx/WGOWd9IV8oN0GPxZ0lZcpdP5nad?from=from_copylink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;《金克丝大冒险》视频预览&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
-&lt;/h2&gt;&lt;p&gt;很遗憾。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;“大发明家的小游戏”英雄联盟手游小游戏开发比赛 完赛&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art.png&#34;
 	width=&#34;1043&#34;
 	height=&#34;1077&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu10998604177390005100.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu4349976379865968759.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu10998604177390005100.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/art_hu4349976379865968759.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;美术资源展示。和美术同学通过微信传文件，这是其中的一部分。&#34;
@@ -187,10 +187,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;232px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1.png&#34;
 	width=&#34;1921&#34;
 	height=&#34;1082&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu13075817337563124966.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu332290086458783440.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu13075817337563124966.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test1_hu332290086458783440.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;在Photoshop中进行游戏UI的比例设计&#34;
@@ -201,10 +201,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;426px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2.png&#34;
 	width=&#34;1975&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu15444916176324844830.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu2448388993399716270.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu15444916176324844830.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test2_hu2448388993399716270.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;测试关卡中瓦片的生成算法。当时出现了bug，后来用了两天才定位到并解决。&#34;
@@ -215,10 +215,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;487px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3.png&#34;
 	width=&#34;602&#34;
 	height=&#34;951&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu2229653323324694856.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu5392408370286161958.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu2229653323324694856.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test3_hu5392408370286161958.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;瓦片的随机生成算法。可以在Inspector中便捷的调试&#34;
@@ -229,10 +229,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;151px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4.png&#34;
 	width=&#34;1005&#34;
 	height=&#34;1143&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu11908552189616641870.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu16171611655322765000.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu11908552189616641870.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test4_hu16171611655322765000.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;人物动画设计。后来工作量太大了决定大幅削减动画量&#34;
@@ -243,10 +243,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;211px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5.png&#34;
 	width=&#34;1084&#34;
 	height=&#34;599&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu16694738305577418393.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu17679966495286624416.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu16694738305577418393.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%87%91%E5%85%8B%E4%B8%9D%E5%A4%A7%E5%86%92%E9%99%A9%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/test5_hu17679966495286624416.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;最终的UI设计&#34;
@@ -261,11 +261,11 @@ UI美术&lt;br&gt;
         </item>
         <item>
         <title>2D游戏《飞翔的阿乔》作品介绍</title>
-        <link>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Mon, 19 Aug 2024 13:37:17 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page3.png" alt="Featured image of post 2D游戏《飞翔的阿乔》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page3.png" alt="Featured image of post 2D游戏《飞翔的阿乔》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;八月份去上海参加了原神FES。&lt;br&gt;
 魔都不愧是魔都。黄浦区，徐汇区，长宁区，静安区&amp;hellip;每一个区的市貌都是先前未曾见到的风景。&lt;br&gt;
 参加完FES感触挺多的，尤其是差不多十点就开始在主舞台前抢位置了，蹲了快三个小时，算是驻扎在了一个非常靠前的位置。&lt;br&gt;
@@ -299,10 +299,10 @@ UI美术&lt;br&gt;
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;暂无&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1439&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu10782704032929512677.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu16866655769591057103.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu10782704032929512677.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page1_hu16866655769591057103.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目截图，黑神话太大了下不完，只能边下边继续写（悲&#34;
@@ -313,10 +313,10 @@ UI美术&lt;br&gt;
 		data-flex-basis=&#34;426px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2.png&#34;
 	width=&#34;1321&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu11462296204099294054.png 480w, https://lumistarry.github.io/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu5397031744640607361.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu11462296204099294054.png 480w, http://localhost:1313/p/2d%E6%B8%B8%E6%88%8F%E9%A3%9E%E7%BF%94%E7%9A%84%E9%98%BF%E4%B9%94%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/page2_hu5397031744640607361.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;游戏素材来源：化身PS糕手，录像静帧抠像。&#34;

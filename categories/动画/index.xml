@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>动画 on 北辰开阳</title>
-        <link>https://lumistarry.github.io/categories/%E5%8A%A8%E7%94%BB/</link>
+        <link>http://localhost:1313/categories/%E5%8A%A8%E7%94%BB/</link>
         <description>Recent content in 动画 on 北辰开阳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>北辰开阳</copyright>
-        <lastBuildDate>Fri, 15 Nov 2024 17:58:41 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/categories/%E5%8A%A8%E7%94%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 17:58:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%8A%A8%E7%94%BB/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>3D动画《睡》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Fri, 15 Nov 2024 17:58:41 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.png" alt="Featured image of post 3D动画《睡》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.png" alt="Featured image of post 3D动画《睡》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;10月初看到b站up主“特效小哥”发起的b站举办的3D渲染大赛，还是手痒，再次参加一下。&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;承担工作&#34;&gt;承担工作
 &lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
@@ -44,10 +44,10 @@
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;很遗憾&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1365&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu17851923957018258399.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu2249756266682146137.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu17851923957018258399.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu2249756266682146137.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;灯光及镜头测试&#34;
@@ -58,10 +58,10 @@
 		data-flex-basis=&#34;449px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1367&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu15166773787847407651.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu3605378414278733434.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu15166773787847407651.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu3605378414278733434.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;材质节点&#34;
@@ -72,10 +72,10 @@
 		data-flex-basis=&#34;449px&#34;
 	
 &gt;&lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
 	width=&#34;2554&#34;
 	height=&#34;1371&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu3580745216415355358.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu13854260495050771850.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu3580745216415355358.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu13854260495050771850.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;动画测试（手K的）&#34;
@@ -90,11 +90,11 @@
         </item>
         <item>
         <title>3D动画《童年》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Sun, 12 May 2024 17:21:20 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.png" alt="Featured image of post 3D动画《童年》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.png" alt="Featured image of post 3D动画《童年》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;愚者总按两遍铃。&lt;br&gt;
 打算总结这篇作品的当天，我完成了《崩坏：星穹铁道》2.2版本的开拓任务“然后在第八天”。&lt;br&gt;
 首先，非常感谢miHoYo为我呈现了一个复杂的，精美的，眼花缭乱而又不失章法的美丽故事。&lt;br&gt;
@@ -126,10 +126,10 @@
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;很遗憾。&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1369&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu1650423106809737760.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu13920087633229618344.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu1650423106809737760.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu13920087633229618344.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;材质测试&#34;
@@ -140,10 +140,10 @@
 		data-flex-basis=&#34;448px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1372&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu6519418549454790134.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu4174921472181224548.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu6519418549454790134.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu4174921472181224548.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;动画测试&#34;
@@ -154,10 +154,10 @@
 		data-flex-basis=&#34;447px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1371&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu1090760635904510520.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu5899657683672277620.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu1090760635904510520.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu5899657683672277620.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EEVEE调好了效果还是挺赞的，为此我毅然决然的抛弃了3ds max（其实是3ds max不太容易做三渲二）&#34;
@@ -172,11 +172,11 @@
         </item>
         <item>
         <title>3D动画《双CPU切换系统》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Mon, 14 Mar 2022 20:03:02 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png" alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png" alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?&lt;br&gt;
 然后……然后……不小心掉进了一个很大的坑呢……&lt;br&gt;
 总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。&lt;br&gt;
@@ -205,10 +205,10 @@
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;【新锐先锋 玩转未来】首届实时渲染大赛 学生组 入围奖&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1331&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;做着做着贴图丢了，当时给我急的啊&#34;
@@ -223,11 +223,11 @@
         </item>
         <item>
         <title>3D动画《回到自己的位置上》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Fri, 17 Dec 2021 22:11:34 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.png" alt="Featured image of post 3D动画《回到自己的位置上》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.png" alt="Featured image of post 3D动画《回到自己的位置上》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;疫情封校，又开始了快/乐的网课生活。&lt;br&gt;
 得到了消息，今年暑假做的这个3D动画在中传举办的“小白杨奖”获得了三等奖，可喜可贺！&lt;br&gt;
 尤其是从零开始（学软件）到制作出成品，就花了两周（叉腰&lt;br&gt;
@@ -255,10 +255,10 @@
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;[Aniwow!2021]第十六届中国（北京）国际大学生动画节“小白杨奖” 三等奖&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1.jpg&#34;
 	width=&#34;2496&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu49029493748872486.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu9196177196243033886.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu49029493748872486.jpg 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu9196177196243033886.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;用的是父亲的旧笔记本，特别卡，渲染一帧要17分钟&#34;
@@ -269,10 +269,10 @@
 		data-flex-basis=&#34;374px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1.jpg&#34;
 	width=&#34;1622&#34;
 	height=&#34;1188&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu11054177596064333317.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu15457270136325870856.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu11054177596064333317.jpg 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu15457270136325870856.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;渲染出的第一帧，当时给我激动坏了&#34;
@@ -283,10 +283,10 @@
 		data-flex-basis=&#34;327px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file.png&#34;
 	width=&#34;1077&#34;
 	height=&#34;1072&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu11280380080387897023.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu15866820466191371326.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu11280380080387897023.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu15866820466191371326.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;没做资产管理的下场，几乎一个镜头用一个场景2333&#34;

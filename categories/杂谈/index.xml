@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>杂谈 on 北辰开阳</title>
-        <link>https://lumistarry.github.io/categories/%E6%9D%82%E8%B0%88/</link>
+        <link>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</link>
         <description>Recent content in 杂谈 on 北辰开阳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>北辰开阳</copyright>
-        <lastBuildDate>Fri, 21 Jul 2023 17:12:29 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Jul 2023 17:12:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>博客迁移</title>
-        <link>https://lumistarry.github.io/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
+        <link>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
         <pubDate>Fri, 21 Jul 2023 17:12:29 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
+        <guid>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
         <description>&lt;h2 id=&#34;环佩凭栏望千帆&#34;&gt;环佩凭栏望千帆
 &lt;/h2&gt;&lt;p&gt;算是离开了高中校园。 &lt;br&gt;
 这几天一直在练车，总算找到一个整块的事件来迁移博客了。&lt;br&gt;
@@ -25,21 +25,66 @@
         </item>
         <item>
         <title>高三随笔</title>
-        <link>https://lumistarry.github.io/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</link>
+        <link>http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</link>
         <pubDate>Wed, 12 Jul 2023 16:49:34 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</guid>
-        <description>&lt;p&gt;（本文原作于2023年5月31日，作者的18岁生日来临之际。高考后上传至博客。）
-（原件已佚）&lt;/p&gt;
+        <guid>http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/</guid>
+        <description>&lt;p&gt;（本文原作于2023年5月31日，作者的18岁生日来临之际。高考后上传至博客。）&lt;/p&gt;
+&lt;h2 id=&#34;行成于思&#34;&gt;行成于思
+&lt;/h2&gt;&lt;p&gt;小时候，不经意间总是会想到，大人和我们有什么区别？当大人是什么感受？我什么时候也能当一回大人？&lt;br&gt;
+如今，这一时刻到了。&lt;br&gt;
+很难说，即将经历的这一天和过去的一千零九十五天有什么不同。这依旧是地球在黄道面上扫过的0.0172rad，沉寂十小时再次变得喧絮的城市，准时在宿舍楼响起的《Through the Arbor》，黑板上又减一的倒计时。&lt;br&gt;
+也很难说，我即将去做的事情和过去的两千四百小时有什么不同。我依旧会刷一套理综，一套数学，背单词和句式，瞅一眼&amp;quot;小说八张纸&amp;quot;。&lt;br&gt;
+银河铺展，繁星漫天。无数次于充满疲惫的教室里仰望夜空，总能看到那么一两颗渺小的光，冲破郑州浓厚的PM2.5分散剂，洒落大地。乾坤斗转，众星于浩瀚的宇宙旅行，孤辰莞怀，人类在复杂的社会旋舞。&lt;br&gt;
+——也曾听人说，我们现在所经历的，是否也像星球的公转自转一样，似乎没有任何意义？&lt;br&gt;
+就像无数尘埃与视等星构成了灿烂的第二旋臂，我相信，人生旅途的意义就是旅途本身。2017至2023年，每一年，都是一段值得怀念的时光。两千一百九十天，我经历了很多有趣的事，也遇到了很多有趣的人。正如苹果公司早期员工给史蒂夫·乔布斯的贺信，&amp;ldquo;过程就是奖励&amp;rdquo;，即便这六年我的生活并不风平浪静，即便我也遇到了不少人间种种，即便——我可能无法为这十二年的学海画上一个足够理想的句号，但逢山开路，遇水架桥。&amp;ldquo;世界以痛吻我，要我报之以歌&amp;rdquo;，无论生活灰色与否，我都会去努力涂上自己颜色。&lt;br&gt;
+这是我的十八岁，这是我的青春，垫着《步步高学案导学笔记》《金考卷·特快专递》一本本一步步蹒跚登高的青春。&lt;br&gt;
+拍毕业照那天，在一门之隔的校外，快门与洒水车一起拥有了位移。高悬的彩虹便成了这十二年华丽的彗尾，裁着我七色的过去，连接现在与未来。&lt;br&gt;
+所以啊，要去看看这个世界。希望在日后的漫漫征途中，有一颗属于自己的流星划过，人们可以记住它的光芒。&lt;br&gt;
+祝我生日快乐。&lt;br&gt;
+永远是传奇。&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+2023.5.31&lt;/p&gt;
+&lt;h2 id=&#34;图集&#34;&gt;图集
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write1.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write1_hu16905852876169039389.jpg 480w, http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write1_hu6947029598474620172.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;手写原件1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write2.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write2_hu4547108543038570473.jpg 480w, http://localhost:1313/p/%E9%AB%98%E4%B8%89%E9%9A%8F%E7%AC%94/write2_hu10747947982311673966.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;手写原件2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;br&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>博客从这里开始</title>
-        <link>https://lumistarry.github.io/p/test-chinese/</link>
+        <link>http://localhost:1313/p/test-chinese/</link>
         <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://lumistarry.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/test-chinese/hello.jpeg" alt="Featured image of post 博客从这里开始" /&gt;&lt;h2 id=&#34;博客一个日趋过时的中古交流方式&#34;&gt;博客：一个日趋过时的中古交流方式
+        <guid>http://localhost:1313/p/test-chinese/</guid>
+        <description>&lt;img src="http://localhost:1313/p/test-chinese/hello.jpeg" alt="Featured image of post 博客从这里开始" /&gt;&lt;h2 id=&#34;博客一个日趋过时的中古交流方式&#34;&gt;博客：一个日趋过时的中古交流方式
 &lt;/h2&gt;&lt;p&gt;和博客的缘分始于小学。&lt;br&gt;
 当时沉迷科幻小说无法自拔，为了寻找一些令人激动的情节和段落，就在有限的电脑使用事件中游走在各大博客网站之中。&lt;br&gt;
 后来也喜欢上了用笔写点东西，自然也开始写自己的博客。&lt;br&gt;
@@ -85,10 +130,10 @@ Minecraft是世界上最棒的游戏，因为它把故事的撰写权交给了�
 出自 Minecraft终末之诗&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;图片&#34;&gt;图片
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/test-chinese/classroom.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/test-chinese/classroom.jpg&#34;
 	width=&#34;1706&#34;
 	height=&#34;1279&#34;
-	srcset=&#34;https://lumistarry.github.io/p/test-chinese/classroom_hu17703864362891912256.jpg 480w, https://lumistarry.github.io/p/test-chinese/classroom_hu8364165754831637840.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/test-chinese/classroom_hu17703864362891912256.jpg 480w, http://localhost:1313/p/test-chinese/classroom_hu8364165754831637840.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;封校时空无一人的教室&#34;

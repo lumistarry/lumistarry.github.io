@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>3D on 北辰开阳</title>
-        <link>https://lumistarry.github.io/categories/3d/</link>
+        <link>http://localhost:1313/categories/3d/</link>
         <description>Recent content in 3D on 北辰开阳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>北辰开阳</copyright>
-        <lastBuildDate>Fri, 07 Feb 2025 23:58:41 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/categories/3d/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 07 Feb 2025 23:58:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/3d/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>交互作品《鱼与星河》作品介绍</title>
-        <link>https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Fri, 07 Feb 2025 23:58:41 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 交互作品《鱼与星河》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 交互作品《鱼与星河》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;再次接到同学的邀请，和他共同完成他的毕业设计，一个基于鱼缸的交互艺术作品。&lt;br&gt;
 年前忙了几天，年后8号他就要回北京上班了（字节实习），所以我们一合计，直接去他家高强度工作两天。&lt;br&gt;
 我担任的工作还是TA和程序。他的鱼缸需要一个程序同时展示艺术效果。&lt;br&gt;
@@ -49,10 +49,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;Loading&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;1226&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu879115071411843982.png 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu16506462178050701284.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu879115071411843982.png 480w, http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/cloud_hu16506462178050701284.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;最开始的设想，采用空中云朵的场景。&#34;
@@ -63,10 +63,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;234px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace.jpg&#34;
 	width=&#34;2060&#34;
 	height=&#34;1170&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu15478130440971170558.jpg 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu8838123905500430565.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu15478130440971170558.jpg 480w, http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/trace_hu8838123905500430565.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;测试视觉追踪算法&#34;
@@ -77,10 +77,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;422px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light.jpg&#34;
 	width=&#34;2078&#34;
 	height=&#34;1158&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7107028700525122999.jpg 480w, https://lumistarry.github.io/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7557250568796533538.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7107028700525122999.jpg 480w, http://localhost:1313/p/%E4%BA%A4%E4%BA%92%E4%BD%9C%E5%93%81%E9%B1%BC%E4%B8%8E%E6%98%9F%E6%B2%B3%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/light_hu7557250568796533538.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;测试灯光，彼时算法勉强能运行&#34;
@@ -95,11 +95,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>3D动画《睡》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Fri, 15 Nov 2024 17:58:41 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.png" alt="Featured image of post 3D动画《睡》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/empty.png" alt="Featured image of post 3D动画《睡》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;10月初看到b站up主“特效小哥”发起的b站举办的3D渲染大赛，还是手痒，再次参加一下。&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;承担工作&#34;&gt;承担工作
 &lt;/h2&gt;&lt;p&gt;独立制作&lt;/p&gt;
@@ -130,10 +130,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;很遗憾&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1365&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu17851923957018258399.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu2249756266682146137.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu17851923957018258399.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/lighttest_hu2249756266682146137.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;灯光及镜头测试&#34;
@@ -144,10 +144,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;449px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1367&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu15166773787847407651.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu3605378414278733434.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu15166773787847407651.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu3605378414278733434.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;材质节点&#34;
@@ -158,10 +158,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;449px&#34;
 	
 &gt;&lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
 	width=&#34;2554&#34;
 	height=&#34;1371&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu3580745216415355358.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu13854260495050771850.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu3580745216415355358.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%9D%A1%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu13854260495050771850.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;动画测试（手K的）&#34;
@@ -176,11 +176,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>3D动画《童年》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Sun, 12 May 2024 17:21:20 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.png" alt="Featured image of post 3D动画《童年》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/theme.png" alt="Featured image of post 3D动画《童年》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;愚者总按两遍铃。&lt;br&gt;
 打算总结这篇作品的当天，我完成了《崩坏：星穹铁道》2.2版本的开拓任务“然后在第八天”。&lt;br&gt;
 首先，非常感谢miHoYo为我呈现了一个复杂的，精美的，眼花缭乱而又不失章法的美丽故事。&lt;br&gt;
@@ -212,10 +212,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;很遗憾。&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1369&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu1650423106809737760.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu13920087633229618344.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu1650423106809737760.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/texture_hu13920087633229618344.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;材质测试&#34;
@@ -226,10 +226,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;448px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1372&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu6519418549454790134.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu4174921472181224548.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu6519418549454790134.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/animation_hu4174921472181224548.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;动画测试&#34;
@@ -240,10 +240,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;447px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1371&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu1090760635904510520.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu5899657683672277620.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu1090760635904510520.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E7%AB%A5%E5%B9%B4%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title_hu5899657683672277620.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EEVEE调好了效果还是挺赞的，为此我毅然决然的抛弃了3ds max（其实是3ds max不太容易做三渲二）&#34;
@@ -258,11 +258,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>数字艺术作品《LifeSpark光韵》作品介绍</title>
-        <link>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Wed, 07 Feb 2024 15:26:29 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;在上次虚拟摄像的短片之后，得知我对TA岗很感兴趣，那位同学又向我发来了邀请，协助他完成一项基于虚拟现实平台的软件作品。&lt;br&gt;
 这是我第一次接触全栈开发和Unity，自然要全力以赴。&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;承担工作&#34;&gt;承担工作
@@ -299,10 +299,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;a class=&#34;link&#34; href=&#34;https://c0bl83jcgvu.feishu.cn/docx/UcptdMm87oD2tRx6ZDocuTZTnEe?from=from_copylink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;demo预览文档，点击进入即可查看视频&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
 	width=&#34;1866&#34;
 	height=&#34;1100&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目文档展示，设想中的粒子效果&#34;
@@ -313,10 +313,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;407px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;989&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu255438082799557746.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu789752183836119460.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu255438082799557746.jpg 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu789752183836119460.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UI设计&#34;
@@ -327,10 +327,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;310px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;720&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu1184432074502358987.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu3733737775425340093.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu1184432074502358987.jpg 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu3733737775425340093.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;VisionOS的UI设计&#34;
@@ -341,10 +341,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;426px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
 	width=&#34;1866&#34;
 	height=&#34;1100&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目文档展示，产品概念及目标用户&#34;
@@ -359,11 +359,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>虚拟拍摄微电影《下坠》作品介绍</title>
-        <link>https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Tue, 05 Dec 2023 11:39:45 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.jpg" alt="Featured image of post 虚拟拍摄微电影《下坠》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.jpg" alt="Featured image of post 虚拟拍摄微电影《下坠》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;收到了在中传读书的高中同学的邀请，作为团队的一员参与其执导的虚拟拍摄的短片。&lt;br&gt;
 事件的起因是同学听闻中传新建了一块三个面的虚拟LED大屏，可以用作影视的虚拟背景使用。随即向导师申请了使用，并组建了一个团队用来制作一部短片。&lt;br&gt;
 荣幸之至，我能成为团队的一员，负责其中场景的某些资产的模型制作。&lt;br&gt;&lt;/p&gt;
@@ -403,10 +403,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 北京国际电影节2024雄安未来影像电影季 最佳学生科幻创作 入围&lt;br&gt;
 2024北京市动漫设计大赛 视觉特效类 一等奖&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1.jpg&#34;
 	width=&#34;6240&#34;
 	height=&#34;4160&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu9192467364850173479.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu14268383881055700750.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu9192467364850173479.jpg 480w, http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao1_hu14268383881055700750.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;片场照，中心为演员，背后为虚拟大屏&#34;
@@ -417,10 +417,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;360px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2.jpg&#34;
 	width=&#34;6240&#34;
 	height=&#34;4160&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu13287255559616566062.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu2985179574981223218.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu13287255559616566062.jpg 480w, http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao2_hu2985179574981223218.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;三位核心主创&#34;
@@ -431,10 +431,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;360px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3.jpg&#34;
 	width=&#34;4608&#34;
 	height=&#34;3456&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu13023182999274428867.jpg 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu1261617180840387157.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu13023182999274428867.jpg 480w, http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/pianchangzhao3_hu1261617180840387157.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;另一个角度的片场照，背景为我制作的3D资产，由虚幻引擎呈现&#34;
@@ -445,10 +445,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;320px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1551&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu1240101345866613659.png 480w, https://lumistarry.github.io/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu7950870758740490890.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu1240101345866613659.png 480w, http://localhost:1313/p/%E8%99%9A%E6%8B%9F%E6%8B%8D%E6%91%84%E5%BE%AE%E7%94%B5%E5%BD%B1%E4%B8%8B%E5%9D%A0%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UE_hu7950870758740490890.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;在UE引擎中的场景效果&#34;
@@ -463,11 +463,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>3D动画《双CPU切换系统》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Mon, 14 Mar 2022 20:03:02 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png" alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final.png" alt="Featured image of post 3D动画《双CPU切换系统》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;其实我一开始的打算真的只是想做一个3D动画……仅此而已…………(ﾟДﾟ≡ﾟдﾟ)!?&lt;br&gt;
 然后……然后……不小心掉进了一个很大的坑呢……&lt;br&gt;
 总之，疫情从21年底一直持续到寒假。于是乎，寒假就想着继续做一个动画看看。&lt;br&gt;
@@ -496,10 +496,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;【新锐先锋 玩转未来】首届实时渲染大赛 学生组 入围奖&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1331&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu15907953020053802190.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%8F%8Ccpu%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/work_hu7274501397784625617.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;做着做着贴图丢了，当时给我急的啊&#34;
@@ -514,11 +514,11 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
         </item>
         <item>
         <title>3D动画《回到自己的位置上》作品介绍</title>
-        <link>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Fri, 17 Dec 2021 22:11:34 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.png" alt="Featured image of post 3D动画《回到自己的位置上》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/final1.png" alt="Featured image of post 3D动画《回到自己的位置上》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;疫情封校，又开始了快/乐的网课生活。&lt;br&gt;
 得到了消息，今年暑假做的这个3D动画在中传举办的“小白杨奖”获得了三等奖，可喜可贺！&lt;br&gt;
 尤其是从零开始（学软件）到制作出成品，就花了两周（叉腰&lt;br&gt;
@@ -546,10 +546,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 &lt;h2 id=&#34;奖项&#34;&gt;奖项
 &lt;/h2&gt;&lt;p&gt;[Aniwow!2021]第十六届中国（北京）国际大学生动画节“小白杨奖” 三等奖&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1.jpg&#34;
 	width=&#34;2496&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu49029493748872486.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu9196177196243033886.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu49029493748872486.jpg 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/dev1_hu9196177196243033886.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;用的是父亲的旧笔记本，特别卡，渲染一帧要17分钟&#34;
@@ -560,10 +560,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;374px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1.jpg&#34;
 	width=&#34;1622&#34;
 	height=&#34;1188&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu11054177596064333317.jpg 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu15457270136325870856.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu11054177596064333317.jpg 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/model1_hu15457270136325870856.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;渲染出的第一帧，当时给我激动坏了&#34;
@@ -574,10 +574,10 @@ shader都写好了，云也做出来了（效果很赞！），然后发现打�
 		data-flex-basis=&#34;327px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file.png&#34;
 	width=&#34;1077&#34;
 	height=&#34;1072&#34;
-	srcset=&#34;https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu11280380080387897023.png 480w, https://lumistarry.github.io/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu15866820466191371326.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu11280380080387897023.png 480w, http://localhost:1313/p/3d%E5%8A%A8%E7%94%BB%E5%9B%9E%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8A%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/file_hu15866820466191371326.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;没做资产管理的下场，几乎一个镜头用一个场景2333&#34;

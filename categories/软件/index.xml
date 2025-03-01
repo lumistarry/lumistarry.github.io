@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>软件 on 北辰开阳</title>
-        <link>https://lumistarry.github.io/categories/%E8%BD%AF%E4%BB%B6/</link>
+        <link>http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6/</link>
         <description>Recent content in 软件 on 北辰开阳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>北辰开阳</copyright>
-        <lastBuildDate>Wed, 07 Feb 2024 15:26:29 +0800</lastBuildDate><atom:link href="https://lumistarry.github.io/categories/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 07 Feb 2024 15:26:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>数字艺术作品《LifeSpark光韵》作品介绍</title>
-        <link>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+        <link>http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
         <pubDate>Wed, 07 Feb 2024 15:26:29 +0800</pubDate>
         
-        <guid>https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;img src="https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
+        <guid>http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/title.png" alt="Featured image of post 数字艺术作品《LifeSpark光韵》作品介绍" /&gt;&lt;h2 id=&#34;闲谈&#34;&gt;闲谈
 &lt;/h2&gt;&lt;p&gt;在上次虚拟摄像的短片之后，得知我对TA岗很感兴趣，那位同学又向我发来了邀请，协助他完成一项基于虚拟现实平台的软件作品。&lt;br&gt;
 这是我第一次接触全栈开发和Unity，自然要全力以赴。&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;承担工作&#34;&gt;承担工作
@@ -50,10 +50,10 @@
 &lt;a class=&#34;link&#34; href=&#34;https://c0bl83jcgvu.feishu.cn/docx/UcptdMm87oD2tRx6ZDocuTZTnEe?from=from_copylink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;demo预览文档，点击进入即可查看视频&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;图集&#34;&gt;图集
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
 	width=&#34;1866&#34;
 	height=&#34;1100&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目文档展示，设想中的粒子效果&#34;
@@ -64,10 +64,10 @@
 		data-flex-basis=&#34;407px&#34;
 	
 &gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;989&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu255438082799557746.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu789752183836119460.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu255438082799557746.jpg 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI_hu789752183836119460.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UI设计&#34;
@@ -78,10 +78,10 @@
 		data-flex-basis=&#34;310px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;720&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu1184432074502358987.jpg 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu3733737775425340093.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu1184432074502358987.jpg 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/UI-VIsionOS_hu3733737775425340093.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;VisionOS的UI设计&#34;
@@ -92,10 +92,10 @@
 		data-flex-basis=&#34;426px&#34;
 	
 &gt; &lt;br&gt;
-&lt;img src=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1.png&#34;
 	width=&#34;1866&#34;
 	height=&#34;1100&#34;
-	srcset=&#34;https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, https://lumistarry.github.io/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu18272126915735445857.png 480w, http://localhost:1313/p/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81lifespark%E5%85%89%E9%9F%B5%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/screenshot1_hu853718822470418918.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目文档展示，产品概念及目标用户&#34;
